@@ -1,0 +1,9 @@
+[user]
+    name = nag-ryo
+    email = placeholder@example.com
+
+[includeIf "gitdir:~/projects/work/"]
+    path = ~/.gitconfig.work
+
+[includeIf "gitdir:~/projects/personal/"]
+    path = ~/.gitconfig.personal

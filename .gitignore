@@ -1,1 +1,3 @@
 coc/extensions/node_modules
+.gitconfig.personal
+.gitconfig.work
