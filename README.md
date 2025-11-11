@@ -15,5 +15,5 @@ gitディレクトリ配下に、以下のファイルを作成してくださ�
 ```
 
 ## Run
-
+`chmod +x ./setup.sh`
 `./setup.sh`
