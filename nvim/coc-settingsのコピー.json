@@ -1,0 +1,42 @@
+{
+  "diagnostic.enableHighlightLineNumber": false,
+  "diagnostic.infoSign": "",
+  "diagnostic.hintSign": "",
+  "diagnostic.warningSign": "",
+  "diagnostic.errorSign": "",
+  "coc.preferences.formatOnSave": false,
+  "coc.preferences.formatOnSaveFiletypes": [
+    "python",
+    "rust",
+    "javascript",
+    "typescript",
+    "typescriptreact",
+    "css",
+    "json",
+    "jsonc",
+    "go",
+    "vue",
+    "lua",
+    "elixir",
+    "sh"
+  ],
+  "suggest.completionItemKindLabels": {
+    "function": "󰊕 ",
+    "variable": " ",
+    "module": "󰕳 ",
+    "snippet": " ",
+    "struct": " ",
+    "keyword": " ",
+    "property": " ",
+    "method": " ",
+    "field": " ",
+    "interface": " ",
+    "folder": " ",
+    "file": " ",
+    "class": " ",
+    "constant": " "
+  },
+  "diagnostic.virtualText": true,
+  "diagnostic.virtualTextCurrentLineOnly": false,
+  "Lua.diagnostics.globals": ["vim"]
+}

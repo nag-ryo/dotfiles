@@ -1,0 +1,40 @@
+{
+  "diagnostic.enableHighlightLineNumber": false,
+  "diagnostic.infoSign": "",
+  "diagnostic.hintSign": "",
+  "diagnostic.warningSign": "",
+  "diagnostic.errorSign": "",
+  "coc.preferences.formatOnSave": false,
+  "coc.preferences.enableMarkdown": true,
+  "coc.preferences.formatOnType": true,
+  "suggest.completionItemKindLabels": {
+    "function": "󰊕 ",
+    "variable": " ",
+    "module": "󰕳 ",
+    "snippet": " ",
+    "struct": " ",
+    "keyword": " ",
+    "property": " ",
+    "method": " ",
+    "field": " ",
+    "interface": " ",
+    "folder": " ",
+    "file": " ",
+    "class": " ",
+    "constant": " "
+  },
+  "diagnostic.virtualText": true,
+  "diagnostic.virtualTextCurrentLineOnly": false,
+  "Lua.diagnostics.globals": ["vim"],
+  "cSpell.userWords": [
+    "CHECKEDIN",
+    "Formly",
+    "checkin",
+    "flypeach",
+    "flystg",
+    "inversify",
+    "milab",
+    "radixx"
+  ],
+  "snippets.ultisnips.pythonPrompt": false
+}
