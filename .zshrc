@@ -28,12 +28,18 @@ fi
 export VOLTA_HOME="$HOME/.volta"
 [[ -d "$VOLTA_HOME/bin" ]] && path=("$VOLTA_HOME/bin" $path)
 
-# ----- Go -----
-# できればバージョンはツールで管理（mise/asdf/volta 的なやつ）
-# ハードコードは避け、GOBIN を通すだけでOK
+# ----- Go / mise -----
+# Go の作業ディレクトリ
 export GOPATH="$HOME/go"
 export GOBIN="$GOPATH/bin"
+
+# go install したツール群（$GOBIN）を PATH 先頭へ
 path=("$GOBIN" $path)
+
+# mise の shims を PATH 先頭へ
+if [[ -d "$HOME/.local/share/mise/shims" ]]; then
+  path=("$HOME/.local/share/mise/shims" $path)
+fi
 
 # ----- Python（必要時のみ）-----
 if command -v pyenv >/dev/null 2>&1; then
